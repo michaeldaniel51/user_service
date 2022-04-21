@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    discovery:
+      enabled: true
+    gateway:
+      discovery:
+        locator:
+          lower-case-service-id: true
+    config:
+      enabled: true
+      uri: http://localhost:9296
+
